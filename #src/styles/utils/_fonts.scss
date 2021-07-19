@@ -18,12 +18,17 @@ body{
   font-family: $mainFont;
 }
 
-/* Project Imported CDN Fonts */
-/* @include font-face(FontName, FontPath, 300, normal, eot woff2 woff ttf svg); */
+/* fontName */
 /* -------------------------------------------------------------------------- */
+  @include font-face(fontName, fontName/fontName-ExtraLight, 200, normal, eot woff2 woff ttf svg);
+  @include font-face(fontName, fontName/fontName-Light, 300, normal, eot woff2 woff ttf svg);
+  @include font-face(fontName, fontName/fontName-Regular, 400, normal, eot woff2 woff ttf svg);
+  @include font-face(fontName, fontName/fontName-Medium, 500, normal, eot woff2 woff ttf svg);
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+/* Project Imported CDN Fonts */
+/* -------------------------------------------------------------------------- */
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 
 
 /* Project Fonts */
